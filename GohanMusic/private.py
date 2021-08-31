@@ -32,7 +32,7 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(text="⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data="helps+1"),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ 🎵", url=f"https://"t.me/Musicdenzchannel"
+                        "ᴄʜᴀɴɴᴇʟ 🎵", url=f"https://"t.me/Musicdenzchannel",
                     ),
                 ],
             ]
