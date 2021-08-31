@@ -50,8 +50,8 @@ async def start(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🛠 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🛠",
-                        url="https://github.com/Good-Boys-Exe/GohanMusic",
+                        "🛠 ᴄʜᴀɴɴᴇʟ 🛠",
+                        url=f"https://t.me/Musicdenzchannel",
                     )
                 ],
             ]
