@@ -1,9 +1,9 @@
 {
-    "name": "Gohan Music",
-    "logo": "https://telegra.ph/file/6b14ab68ab3dfd4200ca5.jpg",
+    "name": "Jabal Music",
+    "logo": "https://telegra.ph/file/42dc29e6ee7be71400233.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["bot music telegram", "bot musik", "cara membuat bot musik di telegram"],
-    "repository": "https://github.com/Good-Boys-Exe/GohanMusic",
+    "repository": "https://github.com/Haramzadah/JabalMusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
