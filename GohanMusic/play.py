@@ -528,34 +528,34 @@ async def play(_, message: Message):
             j = 0
 
             emojilist = [
-                "⚫",
-                "⚪",
-                "⚫",
-                "⚪",
-                "⚫",
-                "⚪",
-                "⚫",
-                "⚪",
-                "⚫",
-                "⚪",
+                "1️⃣",
+                "2️⃣",
+                "3️⃣",
+                "4️⃣",
+                "5️⃣",
+                "6️⃣",
+                "7️⃣",
+                "8️⃣",
+                "9️⃣",
+                "🔟",
             ]
             while j < 10:
                 toxxt += f"{emojilist[j]}: [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})\n"
-                toxxt += f"├ 💡 **Durasi:** {results[j]['duration']}\n"
-                toxxt += f"└ 💠 **Dipersembahkan:** [{bn}](t.me/{bu})\n\n"
+                toxxt += f"├ ⏱️ **Durasi:** {results[j]['duration']}\n"
+                toxxt += f"└ 🕴️ **Dipersembahkan:** [{bn}](t.me/{bu})\n\n"
                 j += 1
             keyboard = InlineKeyboardMarkup(
                 [
-                       [InlineKeyboardButton("⚫", callback_data=f"plll 0|{query}|{user_id}"),
-                        InlineKeyboardButton("⚪", callback_data=f"plll 1|{query}|{user_id}"),
-                        InlineKeyboardButton("⚫", callback_data=f"plll 2|{query}|{user_id}")],
-                       [InlineKeyboardButton("⚪", callback_data=f"plll 3|{query}|{user_id}"),
-                        InlineKeyboardButton("⚫", callback_data=f"plll 4|{query}|{user_id}"),
-                        InlineKeyboardButton("⚪", callback_data=f"plll 5|{query}|{user_id}")],
-                       [InlineKeyboardButton("⚫", callback_data=f"plll 6|{query}|{user_id}"),
-                        InlineKeyboardButton("⚪", callback_data=f"plll 7|{query}|{user_id}"),
-                        InlineKeyboardButton("⚫", callback_data=f"plll 8|{query}|{user_id}")],
-                       [InlineKeyboardButton("⚪", callback_data=f"plll 9|{query}|{user_id}")],
+                       [InlineKeyboardButton("1️⃣", callback_data=f"plll 0|{query}|{user_id}"),
+                        InlineKeyboardButton("2️⃣", callback_data=f"plll 1|{query}|{user_id}"),
+                        InlineKeyboardButton("3️⃣", callback_data=f"plll 2|{query}|{user_id}")],
+                       [InlineKeyboardButton("4️⃣", callback_data=f"plll 3|{query}|{user_id}"),
+                        InlineKeyboardButton("5️⃣", callback_data=f"plll 4|{query}|{user_id}"),
+                        InlineKeyboardButton("6️⃣", callback_data=f"plll 5|{query}|{user_id}")],
+                       [InlineKeyboardButton("7️⃣", callback_data=f"plll 6|{query}|{user_id}"),
+                        InlineKeyboardButton("8️⃣", callback_data=f"plll 7|{query}|{user_id}"),
+                        InlineKeyboardButton("9️⃣", callback_data=f"plll 8|{query}|{user_id}")],
+                       [InlineKeyboardButton("🔟", callback_data=f"plll 9|{query}|{user_id}")],
                        [InlineKeyboardButton(text="❌", callback_data="cls")],
                 ]
             )
