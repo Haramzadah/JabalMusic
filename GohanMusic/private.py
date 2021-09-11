@@ -11,10 +11,10 @@ from helpers.filters import command
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
-        caption=f"""<b>👋🏻 Hallo {message.from_user.mention}
-🎟️ Nama Saya [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+        caption=f"""<b>🌵 Hallo {message.from_user.mention}
+🌹 Nama Saya [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 
-🤖 Saya Adalah Bot Canggih Yang Dibuat Untuk Memutar Musik Di Obrolan Suara Grup Telegram</b>""",
+🌻 Saya Adalah Bot Canggih Yang Dibuat Untuk Memutar Musik Di Obrolan Suara Grup Telegram</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -25,14 +25,14 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🌺 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", url=f"https://t.me/{OWNER}"),
                 ],
                 [
-                    InlineKeyboardButton(text="⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data="helps+1"),
+                    InlineKeyboardButton(text="🌻 ʙᴀɴᴛᴜᴀɴ", callback_data="helps+1"),
                     InlineKeyboardButton(
-                        "sᴄʜᴀɴɴᴇʟ 🎛️", url="https://t.me/Musicdenzchannel"
+                        "ᴄʜᴀɴɴᴇʟ 🌹", url="https://t.me/Musicdenzchannel"
                     ),
                 ],
             ]
@@ -69,7 +69,7 @@ Perintah semua admin grup
             [
                 [
                     InlineKeyboardButton(
-                        "💬 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🌺 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", url=f"https://t.me/{OWNER}"),
                 ]
